@@ -1,1 +1,2 @@
 # Embarcados
+O valor apostado será apresentado no LCD e alterado pelas teclas, o saldo também será apresentado no LCD variando apenas após o termíno da aposta, o valor da soma das cartas será apresentado no LCD e a decisão de para ou pegar mais cartas será feita pelas teclas, o valor do retorno dependerá da proximidade de 21, durante o jogo o RGB ficará azul e ao terminar vai ficar vermelho ou verde dependo do resultado. Para descobrir qual carta será escolhida foi utilizado um timer.
