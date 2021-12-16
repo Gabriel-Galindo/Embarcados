@@ -278,9 +278,9 @@ PIN_E7 39
 [v _lcdChar lcdChar `(v  1 e 1 0 ]
 "72
 [v _lcdInit lcdInit `(v  1 e 1 0 ]
-"24 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+"23 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 [v _mesaReset mesaReset `(v  1 e 1 0 ]
-"32
+"31
 [v _sacaCarta sacaCarta `(i  1 e 2 0 ]
 "54
 [v _main main `(i  1 e 2 0 ]
@@ -373,7 +373,7 @@ PIN_E7 39
 {
 "59
 } 0
-"32 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+"31 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 [v _sacaCarta sacaCarta `(i  1 e 2 0 ]
 {
 [v sacaCarta@valor valor `*.39i  1 p 2 14 ]
@@ -424,14 +424,14 @@ PIN_E7 39
 [v rgbColor@led led `i  1 p 2 6 ]
 "19
 } 0
-"24 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+"23 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 [v _mesaReset mesaReset `(v  1 e 1 0 ]
 {
-"26
+"25
 [v mesaReset@i i `i  1 a 2 2 ]
-"24
+"23
 [v mesaReset@namesa namesa `*.39i  1 p 2 0 ]
-"30
+"29
 } 0
 "72 C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
 [v _lcdInit lcdInit `(v  1 e 1 0 ]

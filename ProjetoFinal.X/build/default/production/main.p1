@@ -515,114 +515,117 @@ Version 4.0 HI-TECH Software Intermediate Code
 [p x EBTR3  =  OFF ]
 "62
 [p x EBTRB  =  OFF ]
-"24 main.c
-[; ;main.c: 24: void mesaReset(int *namesa)
+"23 main.c
+[; ;main.c: 23: void mesaReset(int *namesa)
 [v _mesaReset `(v ~T0 @X0 1 ef1`*i ]
-"25
-[; ;main.c: 25: {
+"24
+[; ;main.c: 24: {
 {
 [e :U _mesaReset ]
-"24
-[; ;main.c: 24: void mesaReset(int *namesa)
+"23
+[; ;main.c: 23: void mesaReset(int *namesa)
 [v _namesa `*i ~T0 @X0 1 r1 ]
-"25
-[; ;main.c: 25: {
+"24
+[; ;main.c: 24: {
 [f ]
-"26
-[; ;main.c: 26:     int i;
+"25
+[; ;main.c: 25:     int i;
 [v _i `i ~T0 @X0 1 a ]
-"27
-[; ;main.c: 27:     for(i=0;i<52;i++){
+"26
+[; ;main.c: 26:     for(i=0;i<52;i++){
 {
 [e = _i -> 0 `i ]
 [e $ < _i -> 52 `i 277  ]
 [e $U 278  ]
 [e :U 277 ]
 {
-"28
-[; ;main.c: 28:         namesa[i]=0;
+"27
+[; ;main.c: 27:         namesa[i]=0;
 [e = *U + _namesa * -> _i `x -> -> # *U _namesa `i `x -> 0 `i ]
-"29
-[; ;main.c: 29:     }
+"28
+[; ;main.c: 28:     }
 }
 [e ++ _i -> 1 `i ]
 [e $ < _i -> 52 `i 277  ]
 [e :U 278 ]
 }
-"30
-[; ;main.c: 30: }
+"29
+[; ;main.c: 29: }
 [e :UE 276 ]
 }
-"32
-[; ;main.c: 32: int sacaCarta(int *valor,int *namesa,unsigned long int cont)
+"31
+[; ;main.c: 31: int sacaCarta(int *valor,int *namesa,unsigned long int cont)
 [v _sacaCarta `(i ~T0 @X0 1 ef3`*i`*i`ul ]
-"33
-[; ;main.c: 33: {
+"32
+[; ;main.c: 32: {
 {
 [e :U _sacaCarta ]
-"32
-[; ;main.c: 32: int sacaCarta(int *valor,int *namesa,unsigned long int cont)
+"31
+[; ;main.c: 31: int sacaCarta(int *valor,int *namesa,unsigned long int cont)
 [v _valor `*i ~T0 @X0 1 r1 ]
 [v _namesa `*i ~T0 @X0 1 r2 ]
 [v _cont `ul ~T0 @X0 1 r3 ]
-"33
-[; ;main.c: 33: {
+"32
+[; ;main.c: 32: {
 [f ]
-"34
-[; ;main.c: 34:     while(namesa[cont%52]){
+"33
+[; ;main.c: 33:     while(namesa[cont%52]){
 [e $U 281  ]
 [e :U 282 ]
 {
-"35
-[; ;main.c: 35:         timerReset(2*cont%52);
+"34
+[; ;main.c: 34:         timerReset(2*cont%52);
 [e ( _timerReset (1 -> % * -> -> -> 2 `i `l `ul _cont -> -> -> 52 `i `l `ul `ui ]
-"36
-[; ;main.c: 36:         timerWait();
+"35
+[; ;main.c: 35:         timerWait();
 [e ( _timerWait ..  ]
-"37
-[; ;main.c: 37:     }
+"36
+[; ;main.c: 36:     }
 }
 [e :U 281 ]
-"34
-[; ;main.c: 34:     while(namesa[cont%52]){
+"33
+[; ;main.c: 33:     while(namesa[cont%52]){
 [e $ != *U + _namesa * -> % _cont -> -> -> 52 `i `l `ul `ux -> -> # *U _namesa `ui `ux -> 0 `i 282  ]
 [e :U 283 ]
-"38
-[; ;main.c: 38:     if(valor[cont%52]==1){
+"37
+[; ;main.c: 37:     if(valor[cont%52]==1){
 [e $ ! == *U + _valor * -> % _cont -> -> -> 52 `i `l `ul `ux -> -> # *U _valor `ui `ux -> 1 `i 284  ]
 {
-"39
-[; ;main.c: 39:         lcdChar(49);
+"38
+[; ;main.c: 38:         lcdChar(49);
 [e ( _lcdChar (1 -> -> 49 `i `uc ]
-"40
-[; ;main.c: 40:         lcdChar(48);
+"39
+[; ;main.c: 39:         lcdChar(48);
 [e ( _lcdChar (1 -> -> 48 `i `uc ]
-"41
-[; ;main.c: 41:         return 10;
+"40
+[; ;main.c: 40:         return 10;
 [e ) -> 10 `i ]
 [e $UE 280  ]
-"42
-[; ;main.c: 42:     }
+"41
+[; ;main.c: 41:     }
 }
 [e :U 284 ]
-"43
-[; ;main.c: 43:     if(valor[cont%52]>=10){
+"42
+[; ;main.c: 42:     if(valor[cont%52]>=10){
 [e $ ! >= *U + _valor * -> % _cont -> -> -> 52 `i `l `ul `ux -> -> # *U _valor `ui `ux -> 10 `i 285  ]
 {
-"44
-[; ;main.c: 44:         lcdChar(49);
+"43
+[; ;main.c: 43:         lcdChar(49);
 [e ( _lcdChar (1 -> -> 49 `i `uc ]
-"45
-[; ;main.c: 45:         lcdChar(48);
+"44
+[; ;main.c: 44:         lcdChar(48);
 [e ( _lcdChar (1 -> -> 48 `i `uc ]
-"46
-[; ;main.c: 46:         return 10;
+"45
+[; ;main.c: 45:         return 10;
 [e ) -> 10 `i ]
 [e $UE 280  ]
-"47
-[; ;main.c: 47:     }
+"46
+[; ;main.c: 46:     }
 }
 [e :U 285 ]
+"47
+[; ;main.c: 47:     lcdChar(48);
+[e ( _lcdChar (1 -> -> 48 `i `uc ]
 "48
 [; ;main.c: 48:     lcdChar(valor[cont%52]+48);
 [e ( _lcdChar (1 -> + *U + _valor * -> % _cont -> -> -> 52 `i `l `ul `ux -> -> # *U _valor `ui `ux -> 48 `i `uc ]

@@ -13,7 +13,6 @@
 
 
 
-
 # 1 "C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\proc\\pic18f4520.h" 1 3
 # 44 "C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\proc\\pic18f4520.h" 3
 # 1 "C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\__at.h" 1 3
@@ -4362,7 +4361,7 @@ extern volatile __bit nWR __attribute__((address(0x7C21)));
 
 
 extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
-# 8 "main.c" 2
+# 7 "main.c" 2
 
 # 1 "./keypad.h" 1
 
@@ -4371,14 +4370,14 @@ extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
     char kpReadKey(void);
  void kpDebounce(void);
  void kpInit(void);
-# 9 "main.c" 2
+# 8 "main.c" 2
 
 # 1 "./ssd.h" 1
 # 22 "./ssd.h"
  void ssdDigit(char val, char pos);
  void ssdUpdate(void);
  void ssdInit(void);
-# 10 "main.c" 2
+# 9 "main.c" 2
 
 # 1 "./lcd.h" 1
 
@@ -4389,7 +4388,7 @@ extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
   void lcdNumber(int value);
   void lcdPosition(int line, int col);
   void lcdInit(void);
-# 11 "main.c" 2
+# 10 "main.c" 2
 
 # 1 "./rgb.h" 1
 # 20 "./rgb.h"
@@ -4397,7 +4396,7 @@ extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
  void turnOn(int led);
  void turnOff(int led);
  void rgbInit(void);
-# 12 "main.c" 2
+# 11 "main.c" 2
 
 # 1 "./config.h" 1
 # 26 "./config.h"
@@ -4438,10 +4437,10 @@ extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
 #pragma config EBTR2 = OFF
 #pragma config EBTR3 = OFF
 #pragma config EBTRB = OFF
-# 13 "main.c" 2
+# 12 "main.c" 2
 
 # 1 "./bits.h" 1
-# 14 "main.c" 2
+# 13 "main.c" 2
 
 # 1 "./timer.h" 1
 # 23 "./timer.h"
@@ -4450,8 +4449,8 @@ extern volatile __bit nWRITE __attribute__((address(0x7E3A)));
 
  void timerReset(unsigned int tempo);
  void timerInit(void);
-# 15 "main.c" 2
-# 24 "main.c"
+# 14 "main.c" 2
+# 23 "main.c"
 void mesaReset(int *namesa)
 {
     int i;
@@ -4476,6 +4475,7 @@ int sacaCarta(int *valor,int *namesa,unsigned long int cont)
         lcdChar(48);
         return 10;
     }
+    lcdChar(48);
     lcdChar(valor[cont%52]+48);
     return valor[cont%52];
 }

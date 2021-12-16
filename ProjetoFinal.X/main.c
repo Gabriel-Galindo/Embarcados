@@ -1,8 +1,7 @@
 /* 
  * File:   main.c
- * Author: Jelmires
+ * Author: Gabriel Galindo
  *
- * Created on 13 de Dezembro de 2021, 20:04
  */
 
 #include <pic18f4520.h>
@@ -45,6 +44,7 @@ int sacaCarta(int *valor,int *namesa,unsigned long int cont)
         lcdChar(48);
         return 10;
     }
+    lcdChar(48);
     lcdChar(valor[cont%52]+48);
     return valor[cont%52];
 }
