@@ -952,8 +952,8 @@ Version 4.0 HI-TECH Software Intermediate Code
 [e :U 302 ]
 {
 "99
-[; ;main.c: 99:                     max=max+2*aposta;
-[e = _max + _max * -> 2 `i _aposta ]
+[; ;main.c: 99:                     max=max+2*aposta*((soma/21)+1);
+[e = _max + _max * * -> 2 `i _aposta + / _soma -> 21 `i -> 1 `i ]
 "100
 [; ;main.c: 100:                     rgbColor(2);
 [e ( _rgbColor (1 -> 2 `i ]

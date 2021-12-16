@@ -4527,7 +4527,7 @@ int main(void) {
                     rgbColor(1);
                     max=max-aposta;
                 }else{
-                    max=max+2*aposta;
+                    max=max+2*aposta*((soma/21)+1);
                     rgbColor(2);
                 }
                 aposta=0;

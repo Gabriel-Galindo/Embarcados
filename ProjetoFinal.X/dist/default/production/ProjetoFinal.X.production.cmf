@@ -12,46 +12,47 @@
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\ProjetoFinal.X.production.o
-cinit CODE 0 199E 199E 42 1
+cinit CODE 0 19C2 19C2 42 1
 idloc IDLOC 5 200000 200000 8 1
-text0 CODE 0 61C 61C 5CC 1
-text1 CODE 0 1BF2 1BF2 8 1
-text2 CODE 0 1084 1084 1C6 1
-text3 CODE 0 1BD8 1BD8 10 1
-text4 CODE 0 1B7A 1B7A 22 1
-text5 CODE 0 1B9C 1B9C 1E 1
-text6 CODE 0 17C2 17C2 88 1
-text7 CODE 0 1A22 1A22 3E 1
-text8 CODE 0 1662 1662 B0 1
-text9 CODE 0 195A 195A 44 1
-text10 CODE 0 15AE 15AE B4 1
-text11 CODE 0 1B54 1B54 26 1
-text12 CODE 0 1BBA 1BBA 1E 1
-text13 CODE 0 18B2 18B2 5A 1
-text14 CODE 0 19E0 19E0 42 1
-text15 CODE 0 1BFA 1BFA 2 1
-text16 CODE 0 1AD0 1AD0 30 1
-text17 CODE 0 1BE8 1BE8 A 1
-text18 CODE 0 1A9E 1A9E 32 1
-text19 CODE 0 1A60 1A60 3E 1
-text20 CODE 0 BE8 BE8 24E 1
-text21 CODE 0 13B4 13B4 136 1
-text22 CODE 0 190C 190C 4E 1
-text23 CODE 0 1B00 1B00 2A 1
-text24 CODE 0 1B2A 1B2A 2A 1
-text25 CODE 0 E36 E36 24E 1
-text26 CODE 0 124A 124A 16A 1
-text27 CODE 0 1712 1712 B0 1
-text28 CODE 0 14EA 14EA C4 1
+text0 CODE 0 61C 61C 5F0 1
+text1 CODE 0 1C3C 1C3C 8 1
+text2 CODE 0 10A8 10A8 1C6 1
+text3 CODE 0 1C22 1C22 10 1
+text4 CODE 0 1BC4 1BC4 22 1
+text5 CODE 0 1BE6 1BE6 1E 1
+text6 CODE 0 17E6 17E6 88 1
+text7 CODE 0 1A46 1A46 3E 1
+text8 CODE 0 1686 1686 B0 1
+text9 CODE 0 197E 197E 44 1
+text10 CODE 0 15D2 15D2 B4 1
+text11 CODE 0 1B78 1B78 26 1
+text12 CODE 0 1C04 1C04 1E 1
+text13 CODE 0 18D6 18D6 5A 1
+text14 CODE 0 1A04 1A04 42 1
+text15 CODE 0 1C44 1C44 2 1
+text16 CODE 0 1AF4 1AF4 30 1
+text17 CODE 0 1C32 1C32 A 1
+text18 CODE 0 1AC2 1AC2 32 1
+text19 CODE 0 1A84 1A84 3E 1
+text20 CODE 0 C0C C0C 24E 1
+text21 CODE 0 13D8 13D8 136 1
+text22 CODE 0 1930 1930 4E 1
+text23 CODE 0 1B24 1B24 2A 1
+text24 CODE 0 1B4E 1B4E 2A 1
+text25 CODE 0 E5A E5A 24E 1
+text26 CODE 0 126E 126E 16A 1
+text27 CODE 0 1B9E 1B9E 26 1
+text28 CODE 0 1736 1736 B0 1
+text29 CODE 0 150E 150E C4 1
 cstackCOMRAM COMRAM 1 1 1 1C 1
 cstackBANK1 BANK1 1 100 100 E2 1
 bssBANK2 BANK2 1 200 200 68 1
 smallconst SMALLCONST 0 600 600 1C 1
-idataBANK0 CODE 0 184A 184A 68 1
+idataBANK0 CODE 0 186E 186E 68 1
 dataBANK0 BANK0 1 80 80 68 1
 bssCOMRAM COMRAM 1 1D 1D C 1
 config CONFIG 4 300000 300000 E 1
-$C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+$C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 0 0 4 1
 config CONFIG 4 300000 300000 E 1
@@ -72,18 +73,18 @@ BANK3 300-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
 CONST 4-5FF 1
-CONST 1BFC-7FFF 1
+CONST 1C46-7FFF 1
 STACK 268-5FF 1
-SMALLCONST 1BFC-7FFF 1
+SMALLCONST 1C46-7FFF 1
 CODE 4-5FF 1
-CODE 1BFC-7FFF 1
+CODE 1C46-7FFF 1
 BIGRAM 29-7F 1
 BIGRAM E8-FF 1
 BIGRAM 1E2-1FF 1
 BIGRAM 268-5FF 1
 COMRAM 29-7F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 1BFC-7FFF 1
+MEDIUMCONST 1C46-7FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -98,271 +99,277 @@ MEDIUMCONST 1BFC-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\ProjetoFinal.X.production.o
-14EA text28 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-14EA text28 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-14EE text28 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-14FC text28 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1504 text28 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1508 text28 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1516 text28 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-151E text28 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1522 text28 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-152A text28 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-153C text28 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1540 text28 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1544 text28 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-154A text28 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-154C text28 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-155A text28 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1560 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1576 text28 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-157E text28 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1580 text28 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1586 text28 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-158C text28 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-159C text28 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-15A4 text28 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-15AC text28 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
-1712 text27 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1712 text27 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1716 text27 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1724 text27 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-172C text27 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1730 text27 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-173E text27 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1746 text27 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1758 text27 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-175C text27 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1760 text27 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1766 text27 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1768 text27 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1776 text27 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-178C text27 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-1794 text27 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-179A text27 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-17A0 text27 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-17B0 text27 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-17B8 text27 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-17C0 text27 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
-124A text26 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-124A text26 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1266 text26 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-128E text26 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-12AA text26 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-12D6 text26 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-12F2 text26 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-131E text26 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-133A text26 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1366 text26 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1382 text26 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-13AE text26 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-13AE text26 CODE >51:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-13B2 text26 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E36 text25 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E36 text25 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E52 text25 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E84 text25 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-EA6 text25 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-EC2 text25 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-ECA text25 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-EFC text25 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-F1E text25 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-F3A text25 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-F42 text25 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-F74 text25 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-F96 text25 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-FB2 text25 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-FBA text25 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-FEC text25 CODE >30:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-100E text25 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-102A text25 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1032 text25 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1064 text25 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1082 text25 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1B2A text24 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B2A text24 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B3E text24 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B52 text24 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B00 text23 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B00 text23 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B14 text23 CODE >11:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1B28 text23 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-190C text22 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-190C text22 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1920 text22 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1924 text22 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1938 text22 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-193C text22 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1942 text22 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1954 text22 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1958 text22 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-13B4 text21 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-13B4 text21 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-13BC text21 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-13E4 text21 CODE >35:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1412 text21 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1430 text21 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1456 text21 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1474 text21 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-149E text21 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14A6 text21 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14BE text21 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14C0 text21 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14C4 text21 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14C8 text21 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14D0 text21 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14D0 text21 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14E0 text21 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-14E8 text21 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-BE8 text20 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-BE8 text20 CODE >56:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-C04 text20 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-C36 text20 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-C58 text20 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-C74 text20 CODE >60:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-CAA text20 CODE >61:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-CD0 text20 CODE >62:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-CEC text20 CODE >63:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-D22 text20 CODE >64:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-D48 text20 CODE >65:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-D64 text20 CODE >66:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-D9A text20 CODE >67:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-DC0 text20 CODE >68:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-DDC text20 CODE >69:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E12 text20 CODE >70:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-E34 text20 CODE >73:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
-1A60 text19 CODE >3:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1A60 text19 CODE >4:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1A74 text19 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1A88 text19 CODE >6:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1A9C text19 CODE >7:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
-1A9E text18 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1A9E text18 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1AA2 text18 CODE >56:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1AB6 text18 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1ACA text18 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1ACE text18 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1BE8 text17 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1BE8 text17 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1BF0 text17 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
-1AD0 text16 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1AD0 text16 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1ADC text16 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1AFE text16 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BFA text15 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BFA text15 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-19E0 text14 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-19E0 text14 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-19F4 text14 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1A00 text14 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1A14 text14 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1A20 text14 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18B2 text13 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18B4 text13 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18C8 text13 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18DC text13 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18E0 text13 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-18F2 text13 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1906 text13 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-190A text13 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BBA text12 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BBC text12 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BCA text12 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BD6 text12 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B54 text11 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B56 text11 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B60 text11 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B74 text11 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B78 text11 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15AE text10 CODE >72:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15AE text10 CODE >73:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15C2 text10 CODE >74:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15D6 text10 CODE >75:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15DA text10 CODE >76:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15E6 text10 CODE >78:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-15F4 text10 CODE >79:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1600 text10 CODE >80:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-160E text10 CODE >81:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-161A text10 CODE >82:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1628 text10 CODE >83:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1634 text10 CODE >85:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1642 text10 CODE >86:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-164E text10 CODE >88:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1654 text10 CODE >89:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-165A text10 CODE >90:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1660 text10 CODE >91:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-195A text9 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-195A text9 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1962 text9 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-197C text9 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-199C text9 CODE >30:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1662 text8 CODE >3:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1662 text8 CODE >4:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1670 text8 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1684 text8 CODE >6:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1688 text8 CODE >7:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-169C text8 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16AA text8 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16BE text8 CODE >11:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16C2 text8 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16D6 text8 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16E4 text8 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16F8 text8 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-16FC text8 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1710 text8 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1A22 text7 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1A22 text7 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1A36 text7 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1A4A text7 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-1A5E text7 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
-17C2 text6 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17C2 text6 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17D8 text6 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17DC text6 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17E0 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17EA text6 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17EC text6 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-17FA text6 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1818 text6 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1828 text6 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1832 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1838 text6 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1838 text6 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1848 text6 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
-1B9C text5 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B9E text5 CODE >53:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BAC text5 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1BB8 text5 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
-1B7A text4 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B7A text4 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B84 text4 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B88 text4 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B90 text4 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B94 text4 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B98 text4 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1B9A text4 CODE >53:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BD8 text3 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BD8 text3 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BE6 text3 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1084 text2 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1084 text2 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1088 text2 CODE >35:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-10BA text2 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-10BE text2 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1106 text2 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-114E text2 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1154 text2 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-115A text2 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1166 text2 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-11BC text2 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-11C2 text2 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-11CC text2 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-120A text2 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1248 text2 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-1BF2 text1 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BF2 text1 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BF6 text1 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
-1BF8 text1 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+150E text29 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+150E text29 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1512 text29 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1520 text29 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1528 text29 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+152C text29 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+153A text29 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1542 text29 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1546 text29 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+154E text29 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1560 text29 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1564 text29 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1568 text29 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+156E text29 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1570 text29 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+157E text29 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1584 text29 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+159A text29 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15A2 text29 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15A4 text29 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15AA text29 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15B0 text29 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15C0 text29 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15C8 text29 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+15D0 text29 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awdiv.c
+1736 text28 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1736 text28 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+173A text28 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1748 text28 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1750 text28 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1754 text28 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1762 text28 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+176A text28 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+177C text28 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1780 text28 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1784 text28 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+178A text28 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+178C text28 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+179A text28 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17B0 text28 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17B8 text28 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17BE text28 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17C4 text28 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17D4 text28 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17DC text28 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+17E4 text28 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\awmod.c
+1B9E text27 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1B9E text27 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1BAA text27 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1BB2 text27 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1BBA text27 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+1BC2 text27 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul16.c
+126E text26 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+126E text26 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+128A text26 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+12B2 text26 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+12CE text26 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+12FA text26 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1316 text26 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1342 text26 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+135E text26 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+138A text26 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+13A6 text26 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+13D2 text26 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+13D2 text26 CODE >51:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+13D6 text26 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E5A text25 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E5A text25 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E76 text25 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+EA8 text25 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+ECA text25 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+EE6 text25 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+EEE text25 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+F20 text25 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+F42 text25 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+F5E text25 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+F66 text25 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+F98 text25 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+FBA text25 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+FD6 text25 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+FDE text25 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1010 text25 CODE >30:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1032 text25 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+104E text25 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1056 text25 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1088 text25 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+10A6 text25 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1B4E text24 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B4E text24 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B62 text24 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B76 text24 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B24 text23 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B24 text23 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B38 text23 CODE >11:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1B4C text23 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1930 text22 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1930 text22 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1944 text22 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1948 text22 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+195C text22 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1960 text22 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1966 text22 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1978 text22 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+197C text22 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+13D8 text21 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+13D8 text21 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+13E0 text21 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1408 text21 CODE >35:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1436 text21 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1454 text21 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+147A text21 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1498 text21 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14C2 text21 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14CA text21 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14E2 text21 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14E4 text21 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14E8 text21 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14EC text21 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14F4 text21 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+14F4 text21 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1504 text21 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+150C text21 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+C0C text20 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+C0C text20 CODE >56:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+C28 text20 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+C5A text20 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+C7C text20 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+C98 text20 CODE >60:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+CCE text20 CODE >61:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+CF4 text20 CODE >62:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+D10 text20 CODE >63:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+D46 text20 CODE >64:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+D6C text20 CODE >65:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+D88 text20 CODE >66:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+DBE text20 CODE >67:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+DE4 text20 CODE >68:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E00 text20 CODE >69:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E36 text20 CODE >70:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+E58 text20 CODE >73:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\io.c
+1A84 text19 CODE >3:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1A84 text19 CODE >4:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1A98 text19 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1AAC text19 CODE >6:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1AC0 text19 CODE >7:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\so.c
+1AC2 text18 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1AC2 text18 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1AC6 text18 CODE >56:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1ADA text18 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1AEE text18 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1AF2 text18 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1C32 text17 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1C32 text17 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1C3A text17 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\keypad.c
+1AF4 text16 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1AF4 text16 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B00 text16 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B22 text16 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C44 text15 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C44 text15 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A04 text14 CODE >18:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A04 text14 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A18 text14 CODE >20:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A24 text14 CODE >21:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A38 text14 CODE >22:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1A44 text14 CODE >23:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+18D6 text13 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+18D8 text13 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+18EC text13 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1900 text13 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1904 text13 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1916 text13 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+192A text13 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+192E text13 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C04 text12 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C06 text12 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C14 text12 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C20 text12 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B78 text11 CODE >25:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B7A text11 CODE >26:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B84 text11 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B98 text11 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1B9C text11 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+15D2 text10 CODE >72:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+15D2 text10 CODE >73:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+15E6 text10 CODE >74:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+15FA text10 CODE >75:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+15FE text10 CODE >76:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+160A text10 CODE >78:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1618 text10 CODE >79:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1624 text10 CODE >80:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1632 text10 CODE >81:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+163E text10 CODE >82:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+164C text10 CODE >83:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1658 text10 CODE >85:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1666 text10 CODE >86:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1672 text10 CODE >88:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1678 text10 CODE >89:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+167E text10 CODE >90:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1684 text10 CODE >91:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+197E text9 CODE >24:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+197E text9 CODE >27:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+1986 text9 CODE >28:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+19A0 text9 CODE >29:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+19C0 text9 CODE >30:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+1686 text8 CODE >3:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1686 text8 CODE >4:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1694 text8 CODE >5:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16A8 text8 CODE >6:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16AC text8 CODE >7:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16C0 text8 CODE >9:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16CE text8 CODE >10:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16E2 text8 CODE >11:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16E6 text8 CODE >12:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+16FA text8 CODE >14:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1708 text8 CODE >15:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+171C text8 CODE >16:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1720 text8 CODE >17:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1734 text8 CODE >19:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1A46 text7 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1A46 text7 CODE >46:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1A5A text7 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1A6E text7 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+1A82 text7 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\rgb.c
+17E6 text6 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+17E6 text6 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+17FC text6 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+1800 text6 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+1804 text6 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+180E text6 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+1810 text6 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+181E text6 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+183C text6 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+184C text6 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+1856 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+185C text6 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+185C text6 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+186C text6 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\llmod.c
+1BE6 text5 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1BE8 text5 CODE >53:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1BF6 text5 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1C02 text5 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\lcd.c
+1BC4 text4 CODE >37:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BC4 text4 CODE >42:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BCE text4 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BD2 text4 CODE >47:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BDA text4 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BDE text4 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BE2 text4 CODE >52:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1BE4 text4 CODE >53:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C22 text3 CODE >31:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C22 text3 CODE >33:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C30 text3 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+10A8 text2 CODE >32:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+10A8 text2 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+10AC text2 CODE >35:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+10DE text2 CODE >36:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+10E2 text2 CODE >34:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+112A text2 CODE >38:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+1172 text2 CODE >39:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+1178 text2 CODE >40:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+117E text2 CODE >41:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+118A text2 CODE >43:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+11E0 text2 CODE >44:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+11E6 text2 CODE >45:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+11F0 text2 CODE >48:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+122E text2 CODE >49:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+126C text2 CODE >50:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+1C3C text1 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C3C text1 CODE >57:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C40 text1 CODE >58:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
+1C42 text1 CODE >59:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\timer.c
 61C text0 CODE >54:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 61C text0 CODE >55:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 620 text0 CODE >56:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
@@ -403,46 +410,46 @@ B74 text0 CODE >96:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 B80 text0 CODE >97:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 B8E text0 CODE >98:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 B92 text0 CODE >99:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BAC text0 CODE >100:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BB8 text0 CODE >102:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BC2 text0 CODE >103:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BCA text0 CODE >104:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BD2 text0 CODE >107:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-BE0 text0 CODE >108:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
-199E cinit CODE >1447:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-199E cinit CODE >1449:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-199E cinit CODE >1452:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-199E cinit CODE >1492:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19A0 cinit CODE >1493:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19A2 cinit CODE >1494:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19A4 cinit CODE >1495:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19A6 cinit CODE >1496:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19A8 cinit CODE >1497:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19AA cinit CODE >1498:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19AE cinit CODE >1499:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19B2 cinit CODE >1500:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19B2 cinit CODE >1501:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19B4 cinit CODE >1502:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19B8 cinit CODE >1503:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19BA cinit CODE >1504:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19BC cinit CODE >1505:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19BE cinit CODE >1509:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19C2 cinit CODE >1510:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19C4 cinit CODE >1511:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19C4 cinit CODE >1512:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19C6 cinit CODE >1513:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19C8 cinit CODE >1514:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19CA cinit CODE >1517:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19CE cinit CODE >1518:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D0 cinit CODE >1519:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D0 cinit CODE >1520:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D2 cinit CODE >1521:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D4 cinit CODE >1522:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D6 cinit CODE >1528:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D6 cinit CODE >1531:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19D8 cinit CODE >1532:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19DA cinit CODE >1533:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
-19DC cinit CODE >1534:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.s
+BD0 text0 CODE >100:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+BDC text0 CODE >102:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+BE6 text0 CODE >103:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+BEE text0 CODE >104:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+BF6 text0 CODE >107:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+C04 text0 CODE >108:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
+19C2 cinit CODE >1448:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C2 cinit CODE >1450:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C2 cinit CODE >1453:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C2 cinit CODE >1493:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C4 cinit CODE >1494:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C6 cinit CODE >1495:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19C8 cinit CODE >1496:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19CA cinit CODE >1497:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19CC cinit CODE >1498:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19CE cinit CODE >1499:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19D2 cinit CODE >1500:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19D6 cinit CODE >1501:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19D6 cinit CODE >1502:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19D8 cinit CODE >1503:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19DC cinit CODE >1504:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19DE cinit CODE >1505:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19E0 cinit CODE >1506:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19E2 cinit CODE >1510:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19E6 cinit CODE >1511:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19E8 cinit CODE >1512:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19E8 cinit CODE >1513:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19EA cinit CODE >1514:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19EC cinit CODE >1515:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19EE cinit CODE >1518:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19F2 cinit CODE >1519:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19F4 cinit CODE >1520:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19F4 cinit CODE >1521:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19F6 cinit CODE >1522:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19F8 cinit CODE >1523:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19FA cinit CODE >1529:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19FA cinit CODE >1532:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19FC cinit CODE >1533:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+19FE cinit CODE >1534:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
+1A00 cinit CODE >1535:C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -457,10 +464,10 @@ BE0 text0 CODE >108:C:\Users\Jelmires\MPLABXProjects\ProjetoFinal.X\main.c
 %SYMTAB
 ___awdiv@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __size_of_pushNibble 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-_mesaReset 195A 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
+_mesaReset 197E 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
 __LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\ProjetoFinal.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetoFinal.X.production.o
-__Hspace_0 1BFC 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
+__Hspace_0 1C46 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hspace_1 268 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
@@ -469,22 +476,22 @@ __size_of_lcdInit 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.
 __HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\ProjetoFinal.X.production.o
 lcdCommand@value E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\ProjetoFinal.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\ProjetoFinal.X.production.o
-__end_of_rgbInit 1A60 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
-__end_of_delayMicro 1BFC 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
-_timerReset 1B7A 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
+__end_of_rgbInit 1A84 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
+__end_of_delayMicro 1C46 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
+_timerReset 1BC4 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
 _v0 26 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 _v1 25 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 _v2 24 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 _v3 23 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\ProjetoFinal.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+___sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 _keys 21 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 _main 61C 0 CODE 0 text0 dist/default/production\ProjetoFinal.X.production.o
-start 0 0 CODE 0 init C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-__end_of_timerInit 1BFA 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
-__end_of_timerWait 1BE8 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
+start 0 0 CODE 0 init C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+__end_of_timerInit 1C44 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
+__end_of_timerWait 1C32 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
 __size_of___awdiv 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of___awmod 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_main 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
@@ -493,21 +500,22 @@ __HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\ProjetoFinal.X.producti
 __size_of_timerInit 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_timerWait 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_lcdCommand 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
+?___wmul 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __size_of_pulseEnablePin 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 kpDebounce@i D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\ProjetoFinal.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\ProjetoFinal.X.production.o
-_kpDebounce 13B4 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
+_kpDebounce 13D8 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
 ___awmod@sign E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-_timerInit 1BF2 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
-_timerWait 1BD8 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
-__accesstop 80 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-intlevel0 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-intlevel1 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-intlevel2 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-intlevel3 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+_timerInit 1C3C 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
+_timerWait 1C22 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+intlevel0 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+intlevel1 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+intlevel2 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+intlevel3 0 0 CODE 0 text C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 __LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
-_PulseEnClock 1B00 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
+_PulseEnClock 1B24 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
 __size_of_rgbColor 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 kpDebounce@tempo 28 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\ProjetoFinal.X.production.o
@@ -516,55 +524,57 @@ __size_of_PulseClockData 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.prod
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\ProjetoFinal.X.production.o
 ___awdiv@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\ProjetoFinal.X.production.o
-__end_of_sacaCarta 124A 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
-__end_of_timerReset 1B9C 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
+__end_of_sacaCarta 126E 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
+__end_of_timerReset 1BE6 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
 kpDebounce@newRead 1F 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __size_of_sacaCarta 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
+___wmul@multiplicand B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 ?_kpRead 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-__end_of_lcdChar 1BBA 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
-__end_of_lcdInit 1662 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
+__end_of_lcdChar 1C04 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
+__end_of_lcdInit 1686 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
 ___awdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 _display 27 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\ProjetoFinal.X.production.o
+__end_of___wmul 1BC4 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
 __size_of_soWrite 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-__end_of_digitalRead 13B4 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
-_sacaCarta 1084 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
+__end_of_digitalRead 13D8 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
+_sacaCarta 10A8 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\ProjetoFinal.X.production.o
 main@max 1DC 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __size_of_PulseEnClock 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\ProjetoFinal.X.production.o
-__end_of_kpDebounce 14EA 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
+__end_of_kpDebounce 150E 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
 soWrite@value 7 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\ProjetoFinal.X.production.o
 ___awdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-__end_of___awdiv 15AE 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
-__end_of___awmod 17C2 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
-__end_of___llmod 184A 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
-_rgbColor 1662 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
+__end_of___awdiv 15D2 0 CODE 0 text29 dist/default/production\ProjetoFinal.X.production.o
+__end_of___awmod 17E6 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
+__end_of___llmod 186E 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
+_rgbColor 1686 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
 _INTCON FF2 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_pinMode 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-__end_of_rgbColor 1712 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
-__end_of_PulseEnClock 1B2A 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
+__end_of_rgbColor 1736 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
+__end_of_PulseEnClock 1B4E 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\ProjetoFinal.X.production.o
-start_initialization 199E 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
+start_initialization 19C2 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\ProjetoFinal.X.production.o
-__end_of_kpInit 1AD0 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
-__end_of_kpRead 1BF2 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
-_digitalWrite E36 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
+__end_of_kpInit 1AF4 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
+__end_of_kpRead 1C3C 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
+_digitalWrite E5A 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_delayMicro 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 pinMode@pin 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __pcstackBANK1 100 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+isa$xinst 0 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 delayMili@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 delayMili@i 4 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 sacaCarta@cont 13 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 pushByte@rs A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-_rgbInit 1A22 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
-__end_of_soInit 1A9E 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
+_rgbInit 1A46 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
+__end_of_soInit 1AC2 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\ProjetoFinal.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\ProjetoFinal.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\ProjetoFinal.X.production.o
@@ -577,7 +587,7 @@ __Hidata 0 0 CODE 0 idata dist/default/production\ProjetoFinal.X.production.o
 __Hidloc 200008 0 IDLOC 5 idloc dist/default/production\ProjetoFinal.X.production.o
 main@jogando 1DA 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\ProjetoFinal.X.production.o
-__end_of_soWrite 195A 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
+__end_of_soWrite 197E 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
 __Hparam 0 0 COMRAM 1 rparam dist/default/production\ProjetoFinal.X.production.o
 __Hrdata 0 0 COMRAM 1 rdata dist/default/production\ProjetoFinal.X.production.o
 __Hstack 0 0 STACK 2 stack dist/default/production\ProjetoFinal.X.production.o
@@ -593,7 +603,7 @@ __Htext8 0 0 ABS 0 text8 dist/default/production\ProjetoFinal.X.production.o
 __Htext9 0 0 ABS 0 text9 dist/default/production\ProjetoFinal.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\ProjetoFinal.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\ProjetoFinal.X.production.o
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\ProjetoFinal.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\ProjetoFinal.X.production.o
 __size_of_digitalWrite 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
@@ -625,7 +635,7 @@ __Ltext8 0 0 ABS 0 text8 dist/default/production\ProjetoFinal.X.production.o
 __Ltext9 0 0 ABS 0 text9 dist/default/production\ProjetoFinal.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\ProjetoFinal.X.production.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\ProjetoFinal.X.production.o
-__end_of_pinMode E36 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
+__end_of_pinMode E5A 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\ProjetoFinal.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\ProjetoFinal.X.production.o
 __Hinit 4 0 CODE 0 init dist/default/production\ProjetoFinal.X.production.o
@@ -640,35 +650,37 @@ __Lrbit 0 0 COMRAM 1 rbit dist/default/production\ProjetoFinal.X.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\ProjetoFinal.X.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\ProjetoFinal.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\ProjetoFinal.X.production.o
+___wmul 1B9E 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\ProjetoFinal.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\ProjetoFinal.X.production.o
-__S0 1BFC 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
+__S0 1C46 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __S1 268 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __S2 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_timerReset 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-__end_of_digitalWrite 1084 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
+__end_of_digitalWrite 10A8 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
 __size_of_digitalRead 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\ProjetoFinal.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\ProjetoFinal.X.production.o
 kpDebounce@oldRead 1D 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __end_of_charKey 61B 0 SMALLCONST 0 smallconst dist/default/production\ProjetoFinal.X.production.o
-_pulseEnablePin 19E0 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
+_pulseEnablePin 1A04 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
 pushByte@value D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 timerReset@ciclos C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\ProjetoFinal.X.production.o
 __size_of_kpDebounce 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-_pushNibble 1B54 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
-_lcdChar 1B9C 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
-_lcdInit 15AE 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
+_pushNibble 1B78 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
+_lcdChar 1BE6 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
+_lcdInit 15D2 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
 __Hramtop 600 0 RAM 0 ramtop dist/default/production\ProjetoFinal.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\ProjetoFinal.X.production.o
 __pdataBANK0 80 0 BANK0 1 dataBANK0 dist/default/production\ProjetoFinal.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\ProjetoFinal.X.production.o
+__size_of___wmul 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __LbssBANK2 0 0 ABS 0 bssBANK2 dist/default/production\ProjetoFinal.X.production.o
 __Htext10 0 0 ABS 0 text10 dist/default/production\ProjetoFinal.X.production.o
 __Htext11 0 0 ABS 0 text11 dist/default/production\ProjetoFinal.X.production.o
@@ -689,50 +701,53 @@ __Htext25 0 0 ABS 0 text25 dist/default/production\ProjetoFinal.X.production.o
 __Htext26 0 0 ABS 0 text26 dist/default/production\ProjetoFinal.X.production.o
 __Htext27 0 0 ABS 0 text27 dist/default/production\ProjetoFinal.X.production.o
 __Htext28 0 0 ABS 0 text28 dist/default/production\ProjetoFinal.X.production.o
-_kpInit 1A9E 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
-_kpRead 1BE8 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\ProjetoFinal.X.production.o
+_kpInit 1AC2 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
+_kpRead 1C32 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
 ___awmod@counter D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-_PulseClockData 1B2A 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
-__ptext10 15AE 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
-__ptext11 1B54 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
-__ptext12 1BBA 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
-__ptext13 18B2 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
-__ptext14 19E0 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
-__ptext15 1BFA 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
-__ptext16 1AD0 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
-__ptext17 1BE8 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
-__ptext18 1A9E 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
-__ptext19 1A60 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
-__ptext20 BE8 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
-__ptext21 13B4 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
-__ptext22 190C 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
-__ptext23 1B00 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
-__ptext24 1B2A 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
-__ptext25 E36 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
-__ptext26 124A 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
-__ptext27 1712 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
-__ptext28 14EA 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
-___awdiv 14EA 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
-___awmod 1712 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
-___llmod 17C2 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
+_PulseClockData 1B4E 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
+__ptext10 15D2 0 CODE 0 text10 dist/default/production\ProjetoFinal.X.production.o
+__ptext11 1B78 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
+__ptext12 1C04 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
+__ptext13 18D6 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
+__ptext14 1A04 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
+__ptext15 1C44 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
+__ptext16 1AF4 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
+__ptext17 1C32 0 CODE 0 text17 dist/default/production\ProjetoFinal.X.production.o
+__ptext18 1AC2 0 CODE 0 text18 dist/default/production\ProjetoFinal.X.production.o
+__ptext19 1A84 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
+__ptext20 C0C 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
+__ptext21 13D8 0 CODE 0 text21 dist/default/production\ProjetoFinal.X.production.o
+__ptext22 1930 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
+__ptext23 1B24 0 CODE 0 text23 dist/default/production\ProjetoFinal.X.production.o
+__ptext24 1B4E 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
+__ptext25 E5A 0 CODE 0 text25 dist/default/production\ProjetoFinal.X.production.o
+__ptext26 126E 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
+__ptext27 1B9E 0 CODE 0 text27 dist/default/production\ProjetoFinal.X.production.o
+__ptext28 1736 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
+__ptext29 150E 0 CODE 0 text29 dist/default/production\ProjetoFinal.X.production.o
+___awdiv 150E 0 CODE 0 text29 dist/default/production\ProjetoFinal.X.production.o
+___awmod 1736 0 CODE 0 text28 dist/default/production\ProjetoFinal.X.production.o
+___llmod 17E6 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\ProjetoFinal.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\ProjetoFinal.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\ProjetoFinal.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\ProjetoFinal.X.production.o
-_lcdCommand 1BBA 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
+_lcdCommand 1C04 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
+___wmul@multiplier 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 main@F2395 80 0 BANK0 1 dataBANK0 dist/default/production\ProjetoFinal.X.production.o
 main@cont 1D0 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 main@soma 1DE 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\ProjetoFinal.X.production.o
-_soInit 1A60 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
+_soInit 1A84 0 CODE 0 text19 dist/default/production\ProjetoFinal.X.production.o
 main@tecla 1D6 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\ProjetoFinal.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+isa$std 1 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 main@valor 100 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
-__end_of_pulseEnablePin 1A22 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
+__end_of_pulseEnablePin 1A46 0 CODE 0 text14 dist/default/production\ProjetoFinal.X.production.o
 __size_of_pushByte 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-stackhi 5FF 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
-stacklo 268 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+stackhi 5FF 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
+stacklo 268 0 ABS 0 - C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 pinMode@type 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\ProjetoFinal.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\ProjetoFinal.X.production.o
@@ -740,16 +755,16 @@ main@aposta 1E0 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.pro
 __Lirdata 0 0 CODE 0 irdata dist/default/production\ProjetoFinal.X.production.o
 __size_of_kpInit 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __size_of_kpRead 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-__end_of_pushNibble 1B7A 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
+__end_of_pushNibble 1B9E 0 CODE 0 text11 dist/default/production\ProjetoFinal.X.production.o
 __Lspace_0 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __pbssCOMRAM 1D 0 COMRAM 1 bssCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
-__end_of_PulseClockData 1B54 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
+__end_of_PulseClockData 1B78 0 CODE 0 text24 dist/default/production\ProjetoFinal.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-end_of_initialization 19D6 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
+end_of_initialization 19FA 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
 lcdChar@value E 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 delayMicro@a 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\ProjetoFinal.X.production.o
@@ -763,26 +778,26 @@ mesaReset@i 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.pro
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\ProjetoFinal.X.production.o
 digitalRead@pin 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 ?_sacaCarta F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-__end_of_delayMili 1B00 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
+__end_of_delayMili 1B24 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
 __HbssBANK2 0 0 ABS 0 bssBANK2 dist/default/production\ProjetoFinal.X.production.o
 ___awmod@dividend 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __size_of_soInit 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lramtop 600 0 RAM 0 ramtop dist/default/production\ProjetoFinal.X.production.o
 __size_of_delayMili 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\ProjetoFinal.X.production.o
-__pcinit 199E 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
-__end_of_lcdCommand 1BD8 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
-_soWrite 190C 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
+__pcinit 19C2 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
+__end_of_lcdCommand 1C22 0 CODE 0 text12 dist/default/production\ProjetoFinal.X.production.o
+_soWrite 1930 0 CODE 0 text22 dist/default/production\ProjetoFinal.X.production.o
 __ptext0 61C 0 CODE 0 text0 dist/default/production\ProjetoFinal.X.production.o
-__ptext1 1BF2 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
-__ptext2 1084 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
-__ptext3 1BD8 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
-__ptext4 1B7A 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
-__ptext5 1B9C 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
-__ptext6 17C2 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
-__ptext7 1A22 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
-__ptext8 1662 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
-__ptext9 195A 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
+__ptext1 1C3C 0 CODE 0 text1 dist/default/production\ProjetoFinal.X.production.o
+__ptext2 10A8 0 CODE 0 text2 dist/default/production\ProjetoFinal.X.production.o
+__ptext3 1C22 0 CODE 0 text3 dist/default/production\ProjetoFinal.X.production.o
+__ptext4 1BC4 0 CODE 0 text4 dist/default/production\ProjetoFinal.X.production.o
+__ptext5 1BE6 0 CODE 0 text5 dist/default/production\ProjetoFinal.X.production.o
+__ptext6 17E6 0 CODE 0 text6 dist/default/production\ProjetoFinal.X.production.o
+__ptext7 1A46 0 CODE 0 text7 dist/default/production\ProjetoFinal.X.production.o
+__ptext8 1686 0 CODE 0 text8 dist/default/production\ProjetoFinal.X.production.o
+__ptext9 197E 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\ProjetoFinal.X.production.o
 sacaCarta@valor F 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Ltext10 0 0 ABS 0 text10 dist/default/production\ProjetoFinal.X.production.o
@@ -804,34 +819,35 @@ __Ltext25 0 0 ABS 0 text25 dist/default/production\ProjetoFinal.X.production.o
 __Ltext26 0 0 ABS 0 text26 dist/default/production\ProjetoFinal.X.production.o
 __Ltext27 0 0 ABS 0 text27 dist/default/production\ProjetoFinal.X.production.o
 __Ltext28 0 0 ABS 0 text28 dist/default/production\ProjetoFinal.X.production.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\Jelmires\AppData\Local\Temp\xcAs9ss.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\ProjetoFinal.X.production.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\Jelmires\AppData\Local\Temp\xcAs9ck.o
 rgbColor@led 7 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-_pushByte 18B2 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
+_pushByte 18D6 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\ProjetoFinal.X.production.o
 sacaCarta@namesa 11 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\ProjetoFinal.X.production.o
 main@namesa 168 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
 __psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\ProjetoFinal.X.production.o
-_delayMili 1AD0 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
+_delayMili 1AF4 0 CODE 0 text16 dist/default/production\ProjetoFinal.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\ProjetoFinal.X.production.o
 main@terminou 1D4 0 BANK1 1 cstackBANK1 dist/default/production\ProjetoFinal.X.production.o
-_pinMode BE8 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
-__end_of_pushByte 190C 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
-_digitalRead 124A 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
+_pinMode C0C 0 CODE 0 text20 dist/default/production\ProjetoFinal.X.production.o
+__end_of_pushByte 1930 0 CODE 0 text13 dist/default/production\ProjetoFinal.X.production.o
+_digitalRead 126E 0 CODE 0 text26 dist/default/production\ProjetoFinal.X.production.o
 ___param_bank 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\ProjetoFinal.X.production.o
-__end_of__initialization 19D6 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
+__end_of__initialization 19FA 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
 ___awmod@divisor B 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\ProjetoFinal.X.production.o
 __size_of_rgbInit 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
-__pidataBANK0 184A 0 CODE 0 idataBANK0 dist/default/production\ProjetoFinal.X.production.o
+__pidataBANK0 186E 0 CODE 0 idataBANK0 dist/default/production\ProjetoFinal.X.production.o
 pushNibble@rs A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\ProjetoFinal.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 ___llmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 ___llmod@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
-__end_of_main BE8 0 CODE 0 text0 dist/default/production\ProjetoFinal.X.production.o
-_delayMicro 1BFA 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
+__end_of_main C0C 0 CODE 0 text0 dist/default/production\ProjetoFinal.X.production.o
+_delayMicro 1C44 0 CODE 0 text15 dist/default/production\ProjetoFinal.X.production.o
 _PORTA F80 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 _PORTB F81 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 _PORTC F82 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
@@ -858,11 +874,12 @@ _valor 601 0 SMALLCONST 0 smallconst dist/default/production\ProjetoFinal.X.prod
 timerReset@tempo A 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 soWrite@i 9 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\ProjetoFinal.X.production.o
-__end_of_mesaReset 199E 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
-__initialization 199E 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
+__end_of_mesaReset 19C2 0 CODE 0 text9 dist/default/production\ProjetoFinal.X.production.o
+__initialization 19C2 0 CODE 0 cinit dist/default/production\ProjetoFinal.X.production.o
 __size_of_mesaReset 0 0 ABS 0 - dist/default/production\ProjetoFinal.X.production.o
 __pbssBANK2 200 0 BANK2 1 bssBANK2 dist/default/production\ProjetoFinal.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\ProjetoFinal.X.production.o
+___wmul@product D 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Hsmallconst 61C 0 SMALLCONST 0 smallconst dist/default/production\ProjetoFinal.X.production.o
 pushNibble@value C 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFinal.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\ProjetoFinal.X.production.o
@@ -893,7 +910,7 @@ digitalWrite@value 3 0 COMRAM 1 cstackCOMRAM dist/default/production\ProjetoFina
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text0 0 61C 61C 15E0 1
+text0 0 61C 61C 162A 1
 cstackCOMRAM 1 1 1 28 1
 cstackBANK1 1 100 100 E2 1
 reset_vec 0 0 0 4 1

@@ -96,7 +96,7 @@ int main(void) {
                     rgbColor(VERMELHO);
                     max=max-aposta;
                 }else{
-                    max=max+2*aposta;
+                    max=max+2*aposta*((soma/21)+1);
                     rgbColor(VERDE);
                 }
                 aposta=0;
